@@ -1,0 +1,71 @@
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {font-family: "Comic Sans MS", cursive, sans-serif;}
+.container {background-color: #ac683f;}
+
+#studio-intro {padding: 45% 0 20px 20px; color: #fff;}
+#studio-intro > h1 {margin-top: 50px; font-size: 28px;}
+
+div.zx {
+  writing-mode: vertical-rl;
+  text-align: right;
+  transform: rotate(180deg);
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+div.zx > span {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+
+.huge-chair {
+  background-image: url('../static/chair_apartment.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  height: 100%;
+  float: left;
+}
+
+.medium-chair {
+  background-image: url('../static/chair_medium.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100%;
+  float: left;
+}
+
+.small-chair-left {
+  background-image: url('../static/chair_design_furniture.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100%;
+  float: left;
+}
+
+.intro {background-color: #898979;}
+.intro > p {
+  margin-top: 40%;
+  color: #fff;
+  padding: 20px 50px 20px 20px;
+}
+
+.small-chair-right {
+  background-image: url('../static/chair_comfort_contemporary.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100%;
+  float: left;
+}

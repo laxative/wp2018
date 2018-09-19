@@ -1,0 +1,32 @@
+.row {width: 100%; height: 100%;}
+
+[class^="col-md-"] {
+  height: 100%;
+  float: left;
+}
+.col-md-1 {width: calc(100% / 12 * 1)}
+.col-md-2 {width: calc(100% / 12 * 2)}
+.col-md-3 {width: calc(100% / 12 * 3)}
+.col-md-4 {width: calc(100% / 12 * 4)}
+.col-md-5 {width: calc(100% / 12 * 5)}
+.col-md-6 {width: calc(100% / 12 * 6)}
+.col-md-7 {width: calc(100% / 12 * 7)}
+.col-md-8 {width: calc(100% / 12 * 8)}
+.col-md-9 {width: calc(100% / 12 * 9)}
+.col-md-10 {width: calc(100% / 12 * 10)}
+.col-md-11 {width: calc(100% / 12 * 11)};
+.col-md-12 {width: 100%;}
+
+[class^="row-md-"] {
+  width: 100%;
+}
+.row-md-1 {height: 10%;}
+.row-md-2 {height: 20%;}
+.row-md-3 {height: 30%;}
+.row-md-4 {height: 40%;}
+.row-md-5 {height: 50%;}
+.row-md-6 {height: 60%;}
+.row-md-7 {height: 70%;}
+.row-md-8 {height: 80%;}
+.row-md-9 {height: 90%;}
+.row-md-10 {height: 100%;}
