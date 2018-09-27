@@ -18,8 +18,8 @@ asideIcon.addEventListener("click", ToggleMenu);
 asideMenu.addEventListener("transitionend", MenuListToggle);
 
 function FinishPreRender() {
-  beforeContent.style.transform = "translateX(100%)";
-  mainContent.style.transform = "translate(0, -100%)";
+  beforeContent.style.left = "100%";
+  mainContent.style.opacity = 1;
 }
 
 function ToggleMenu() {
